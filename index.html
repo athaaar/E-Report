@@ -1,84 +1,222 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | E-Report IDN</title>
-    <link rel="shortcut icon" href="./assets/image/Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/image/Logo.png" type="image/x-icon"/>
 
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- CDN Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-primary-subtle py-4">
-    <div class="container">
+      <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="./assets/image/Logo-with-bg.jpeg" alt="Logo" width="30" class="d-inline-block align-text-top rounded">
-            <span class="fw-bold text-primary">E-Report IDN</span>
+          <img
+            src="./assets/image/Logo-with-bg.jpeg"
+            alt="Logo"
+            width="30"
+            class="d-inline-block align-text-top rounded"
+          />
+          <span class="fw-bold text-primary">E-Report IDN</span>
         </a>
-        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link text-primary active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Recent</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary" href="#">FAQ</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#recent">Recent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!-- Section: Hero -->
-     <section id="hero">
+    <section id="hero">
       <div class="container">
-        <div class="hero row align-items-center flex-nowrap flex-column flex-lg-row text-center text-lg-start gap-5">
+        <div
+          class="hero row align-items-center flex-nowrap flex-column flex-lg-row text-center text-lg-start gap-5"
+        >
           <div class="col">
-            <h1 class="fw-bold">Selamat Datang <br> di <span class="text-primary">Aplikasi IDN E-Report 2026</span> Forum Pengaduan</h1>
-            <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad esse ut ullam fuga? Autem similique iusto non, dolorem explicabo voluptatibus expedita sequi. Repellat incidunt assumenda sequi vitae corporis magnam?</p>
+            <h1 class="fw-bold">
+              Selamat Datang <br />
+              di
+              <span class="text-primary">Aplikasi IDN E-Report 2026</span> Forum
+              Pengaduan
+            </h1>
+            <p class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad
+              esse ut ullam fuga? Autem similique iusto non, dolorem explicabo
+              voluptatibus expedita sequi. Repellat incidunt assumenda sequi
+              vitae corporis magnam?
+            </p>
             <div class="mt-5">
-              <a class="btn btn-primary" href="">About Us</a>
+              <a class="btn btn-primary" href="#about">About Us</a>
               <a class="btn btn-outline-primary" href="">Let's Start</a>
             </div>
           </div>
           <div class="col d-flex justify-content-center justify-content-lg-end">
-            <img src="./assets/image/Data.png" alt="">
+            <img src="./assets/image/Data.png" alt="" />
           </div>
         </div>
       </div>
-     </section>
+    </section>
 
-     <!-- Section: About Us -->
-      <section id="about">
-        <div class="container">
-          <div class="about row">
-            <div class="col text-center">
-              <h1 class="text-primary fw-bold mb-4">Tentang Kami</h1>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, modi obcaecati eveniet itaque, unde aut maxime, ipsam dolorem vero necessitatibus rerum quibusdam dolor molestias nam.</p>
-              <img src="./assets/image/Team.png" alt="Foto Team">
+    <!-- Section: About Us -->
+    <section id="about">
+      <div class="container">
+        <div class="about row">
+          <div class="col text-center">
+            <h1 class="text-primary fw-bold mb-4">Tentang Kami</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Possimus, modi obcaecati eveniet itaque, unde aut maxime, ipsam
+              dolorem vero necessitatibus rerum quibusdam dolor molestias nam.
+            </p>
+            <img src="./assets/image/Team.png" alt="Foto Team" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Service -->
+    <section id="service" class="p-3 p-lg-0">
+      <div class="container">
+        <div>
+          <h1 class="fw-bold text-primary">Layanan Kami</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
+            repellat distinctio dolores accusantium nisi dolore dolorum porro
+            velit saepe vel. Similique harum temporibus quasi dicta!
+          </p>
+        </div>
+        <div class="row servive mt-5 gap-4">
+          <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
+            <div class="d-flex gap-3 align-items-center mb-2">
+              <i class="fa-solid fa-graduation-cap fs-5"></i>
+              <h4 class="fw-semibold mb-0">Pengaduan Akademik</h4>
+            </div>
+            <p class="lh-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              iure maxime corporis sit voluptates eligendi?
+            </p>
+          </div>
+          <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
+            <div class="d-flex gap-3 align-items-center mb-2 fs-5">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h4 class="fw-semibold mb-0">Pengaduan Fasilitas</h4>
+            </div>
+            <p class="lh-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              iure maxime corporis sit voluptates eligendi?
+            </p>
+          </div>
+          <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
+            <div class="d-flex gap-3 align-items-center mb-2">
+              <i class="fa-solid fa-user-secret fs-5"></i>
+              <h4 class="fw-semibold mb-0">Pengaduan Akademik</h4>
+            </div>
+            <p class="lh-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              iure maxime corporis sit voluptates eligendi?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Recent Report -->
+    <section id="recent">
+      <div class="container">
+        <div class="text-end mb-5">
+          <h1 class="fw-bold text-primary">Laporan Terbaru</h1>
+          <p class="lh-lg"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, non.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="kategori position-absolute px-3 py-2">
+                <a href="" class="text-white text-decoration-none">Fasilitas</a>
+              </div>
+              <img style="max-height: 300px; overflow: hidden;" src="./assets/image/keran-rusak.jpg" class="card-img-top" alt="Keran Rusak" />
+              <div class="card-body">
+                <h5 class="card-title">Keran Rusak</h5>
+                <small>By: <a class="text-decoration-none" href="">Ghaisan Athar Styawan </a> 2 day ago</small>
+                <p class="card-text mt-4">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Selengkapnya...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="kategori position-absolute px-3 py-2">
+                <a href="" class="text-white text-decoration-none">Fasilitas</a>
+              </div>
+              <img style="max-height: 300px; overflow: hidden;" src="./assets/image/keran-rusak.jpg" class="card-img-top" alt="Keran Rusak" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <small>By: <a class="text-decoration-none" href="">Ghaisan Athar Styawan </a> 2 day ago</small>
+                <p class="card-text mt-4">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Selengkapnya...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="kategori position-absolute px-3 py-2">
+                <a href="" class="text-white text-decoration-none">Fasilitas</a>
+              </div>
+              <img style="max-height: 300px; overflow: hidden;" src="./assets/image/keran-rusak.jpg" class="card-img-top" alt="Keran Rusak" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <small>By: <a class="text-decoration-none" href="">Ghaisan Athar Styawan </a> 2 day ago</small>
+                <p class="card-text mt-4">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Selengkapnya...</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
