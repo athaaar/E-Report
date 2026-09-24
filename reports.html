@@ -65,9 +65,14 @@
     <section id="reports">
         <div class="container">
             <!-- judul -->
-            <div class="text-center">
+            <div class="d-flex flex-column flex-lg-row text-center text-lg-start align-items-center justify-content-between gap-2">
+              <div class="col-lg-8">
                 <h1 class="fw-bold text-primary-emphasis">Semua Laporan</h1>
                 <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur voluptate distinctio libero enim sequi sed, nisi aliquam dicta eos officiis ipsum maiores molestiae, nemo quisquam obcaecati tempore eligendi quos.</p>
+              </div>
+              <div class="col-lg-2">
+                <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i> Tambah Laporan</button>
+              </div>
             </div>
              
              <!-- Filter -->
@@ -352,8 +357,49 @@
         </div>
     </section>
 
+    <!-- add modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white fw-semibold">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"> <i class="fa-regular fa-pen-to-square"></i>Formulir tambah laporan</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="">
+            <div class="modal-body p-5">
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">Judul laporan:</label>
+                <input class="form-control shadow-sm" type="text" placeholder="Tulis judul...">
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">Pilih kategori:</label>
+                <select class="form-select shadow-sm">
+                  <option value="">Pilih kategori...</option>
+                  <option value="akademik">Akademik</option>
+                  <option value="fasilitas">Fasilitas</option>
+                  <option value="anonymous">Anonymous</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">Isi laporan:</label>
+                <textarea rows="6" class="form-control shadow-sm" placeholder="Tulis Isi Laporan..."></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">Upload Gambar:</label>
+                <input type="file" class="form-control shadow-sm" accept="image/*">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="reset" class="btn btn-secondary">Reset</button>
+              <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Kirim Laporan</button>
+            </div> 
+          </form>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
-     <footer class="bg-primary-subtle">
+    <footer class="bg-primary-subtle">
         <div class="container">
           <div class="row py-5 justify-content-between row-gap-4">
             <div class="col-md-4 text-primary">
@@ -392,7 +438,7 @@
             <p>&copy; Copyright by <span class="fw-bold">RPL B</span> 2026, All right reserved.</p>
           </div>
         </div>
-     </footer>
+    </footer>
 
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
